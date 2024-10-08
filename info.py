@@ -17,7 +17,7 @@ API_ID = int(environ.get('API_ID', '25208218'))
 API_HASH = environ.get('API_HASH', 'cc8e841203c92f077015b865f44a8663')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1798348973 6174868004').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1798348973').split()]
 USERNAME = environ.get('USERNAME', "https://telegram.me/Looterekrish")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002186335716'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+4RB2-U2o9yE4ZmQ9')
