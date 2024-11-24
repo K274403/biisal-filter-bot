@@ -13,8 +13,8 @@ def is_enabled(value, default):
         return default
 
 #main variables
-API_ID = int(environ.get('API_ID', '25208218'))
-API_HASH = environ.get('API_HASH', 'cc8e841203c92f077015b865f44a8663')
+API_ID = int(environ.get('API_ID', '21527086'))
+API_HASH = environ.get('API_HASH', '11caabfc20fca699feff0c24213b1a80')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1798348973').split()]
@@ -22,13 +22,13 @@ USERNAME = environ.get('USERNAME', "https://telegram.me/Looterekrish")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002186335716'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+4RB2-U2o9yE4ZmQ9')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002087964739 -1002160766163').split()]
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Lootere:Lootere@lootere.xlo7d.mongodb.net/?retryWrites=true&w=majority&appName=Lootere")
-DATABASE_NAME = environ.get('DATABASE_NAME', "TELEGRAM_BOT_INFO")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Cluster0:q6Jwo214NcB7LCsm@cluster0.jxby6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1001949498981'))
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002186335716'))
 QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/ccb9db43e62a2e524928e.jpg')
 START_IMG = environ.get('START_IMG', 'https://graph.org/file/4dad0cc16f190468454ee.jpg')
-BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1002031180571'))
+BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1002263971223'))
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002186335716'))
 URL = environ.get('URL', 'mytestbot-jvdfhbj.com')
 STICKERS_IDS = ('CAACAgQAAxkBAAEK99dlfC7LDqnuwtGRkIoacot_dGC4zQACbg8AAuHqsVDaMQeY6CcRojME').split()
@@ -57,7 +57,7 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002156162334'))
 request_channel = environ.get('REQUEST_CHANNEL', '-1002156162334')
 REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(request_channel) else None
-UPI_PAY_LOGS = int(environ.get('UPI_PAY_LOGS', '-1002186335716'))
+UPI_PAY_LOGS = int(environ.get('UPI_PAY_LOGS', '-1002177424257'))
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002081004430'))
 
 AUTO_FILTER = is_enabled('AUTO_FILTER', True)
