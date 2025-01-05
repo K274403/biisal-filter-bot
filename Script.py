@@ -44,7 +44,7 @@ sᴇɴᴅ ᴍᴇ ᴀɴʏ ᴍᴏᴠɪᴇ ᴏʀ sᴇʀɪᴇs ɴᴀᴍᴇ ᴀɴᴅ 
 🐍 ᴄᴏᴅɪɴɢ ᴍᴜsᴄʟᴇs : <a href="https://www.python.org/">ᴘʏᴛʜᴏɴ 3</a>
 😚 ᴍʏ ᴛʀᴜsᴛʏ sᴛᴇᴇᴅ: <a href="https://github.com/Mayuri-Chan/pyrofork">ᴘʏʀᴏғᴏʀᴋ</a>
 🙏🏻 ᴍʏ ᴄʀᴇᴀᴛᴏʀ : ʟᴏʀᴅ ᴋʀɪsʜɴᴀ
-🤡 ᴍʏ ᴍᴀɴᴀɢᴇʀ : <a href="https://telegram.me/biisal">ʙɪɪsᴀʟ</a>
+🤡 ᴍʏ ᴍᴀɴᴀɢᴇʀ : <a href="https://telegram.me/looterekrish">Lₒₒ𝚝ₑᵣₑ™</a>
 🧑🏻‍💻 ʀᴇᴘᴏ : <a href="https://github.com">Link</a>
 </b>"""
     SUPPORT_GRP_MOVIE_TEXT = '''<b>ʜᴇʏ {}
